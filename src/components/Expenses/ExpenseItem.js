@@ -9,7 +9,7 @@ const ExpenseItem = (props) => {
   //   function onClickHandler() {}
   const onClickHandler = () => {
     setTitle('Updated!!!')
-    console.log("title");
+    console.log(title);
   };
   return (
     <Card className="expense-item">
